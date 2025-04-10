@@ -12,6 +12,6 @@ public class App
        Dev obj =context.getBean(Dev.class);
     //    Dev obj =(Dev) context.getBean("dev1");//by id 
        obj.build();
-       System.out.println(obj.getAge()+ " "+obj.salary);
+      
     }
 }
