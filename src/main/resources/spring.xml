@@ -6,7 +6,7 @@
 
     <!-- bean definitions here -->
 <bean class="com.example.Dev" id="dev1">
-<constructor-arg  name="laptop" ref="des1" />
+<property  name="comp" ref="des1" />
 </bean>
 <bean class="com.example.Desktop" id="des1"></bean>
 <bean class="com.example.Laptop" id="lap1"></bean>
