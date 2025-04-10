@@ -5,9 +5,9 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-<bean class="com.example.Dev" id="dev1" autowire="byName">
-<property  name="comp" ref="lap1" />
+<bean class="com.example.Dev" id="dev1" autowire="byType">
+<!-- <property  name="comp" ref="lap1" /> -->
 </bean>
-<bean class="com.example.Desktop" id="des1"></bean>
+<bean class="com.example.Desktop" id="des1" primary="true"></bean>
 <bean class="com.example.Laptop" id="lap1"></bean>
 </beans>
