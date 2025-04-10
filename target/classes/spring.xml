@@ -6,7 +6,8 @@
 
     <!-- bean definitions here -->
 <bean class="com.example.Dev" id="dev1">
-   <constructor-arg value="14" />
+   <constructor-arg index="0" value="14" />
+   <constructor-arg index="1" value="10000" />
 </bean>
 <bean class="com.example.Laptop"></bean>
 </beans>

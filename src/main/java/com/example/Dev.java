@@ -4,10 +4,11 @@ public class Dev {
     public Dev(){
         System.out.println("Dev constructor");
     }
-
+int salary;
     private int age;
-    public Dev(int age){
+    public Dev(int age,int salary){
         this.age=age;
+        this.salary=salary;
     }
     public void build(){
         System.out.println("built is running");
