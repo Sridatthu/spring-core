@@ -4,7 +4,11 @@ public class Dev {
     public Dev(){
         System.out.println("Dev constructor");
     }
+
     private int age;
+    public Dev(int age){
+        this.age=age;
+    }
     public void build(){
         System.out.println("built is running");
     }
