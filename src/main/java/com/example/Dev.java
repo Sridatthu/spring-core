@@ -1,22 +1,15 @@
 package com.example;
 
 public class Dev {
-    private Laptop laptop;
-    
+    private Computer comp;
+    public Dev(Computer comp){
+        this.comp=comp;
+    }
     public Dev(){
         System.out.println("Dev constructor");
     }
     public void build(){
-        laptop.compile();
+        comp.compile();
         System.out.println("built is running");
     }
-    public Laptop getLaptop() {
-        return laptop;
-    }
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
-    }
-    
-
-    
 }

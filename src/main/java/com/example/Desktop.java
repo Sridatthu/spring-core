@@ -1,6 +1,6 @@
 package com.example;
 
-public class Desktop {
+public class Desktop implements Computer{
     public Desktop(){
         System.out.println("Desktop constructor");
     }
